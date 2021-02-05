@@ -1,7 +1,6 @@
 #importing the necessary dependencies
 from flask import Flask, render_template, request,jsonify
-from flask_cors import cross_origin,CORS
-import flask_cors
+from flask_cors import cross_origin
 import pickle
 import numpy as np
 import sklearn
